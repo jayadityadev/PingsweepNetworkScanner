@@ -31,9 +31,19 @@ git clone https://github.com/jayadityadev/PingsweepNetworkScanner.git
 
 1. Run the program
 
-   ```bash
-   python main.py
-   ```
+   * For Windows (Powershell/CMD): 
+
+      ```
+      python main.py
+      ```
+
+   * For Linux (bash/zsh/unix):
+
+      ```bash
+      sudo python3 main.py
+      ```
+
+   `Root privilege is required for linux users, as modern kernels of linux don't allow pinging without root privilege.`
 
 2. Follow the on-screen instructions to provide the following information:
 
