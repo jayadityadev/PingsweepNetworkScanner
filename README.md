@@ -53,14 +53,14 @@ git clone https://github.com/jayadityadev/PingsweepNetworkScanner.git
 
 ### Example
 
-```python
+```
 Enter the SUBNET IP: 192.168.1
 Enter Starting Range: 1
 Enter Ending Range: 10
 ```
 The script will scan the hosts ranging from IP Address: 192.168.1.1 to 192.168.1.10.
 
-```bash
+```
 Scanning completed in 0:00:13.741418
 
 Live Hosts:
