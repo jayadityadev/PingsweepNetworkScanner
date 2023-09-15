@@ -29,7 +29,7 @@ def network_scan():
 
     for ip in range(first_host, last_host):
         addr = f"{subnet_ip}.{ip}"
-        command = f"ping -n 1 -w 2000 {addr}" if platform.system() == 'Windows' else f"ping -c 1 -W 2 {addr}"
+        command = f"ping -n 1 -w 2500 {addr}" if platform.system() == 'Windows' else f"ping -c 1 -W 2 {addr}"
         response = subprocess.run(command, capture_output=True, text=True, shell=True)
 
         if "TTL" in response.stdout or "ttl" in response.stdout:
